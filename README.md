@@ -12,11 +12,11 @@ You should be able to run the docker command line without sudo. Otherwise you wi
 
 Bulid a new image:
 ```
-$ git clone https://github.com/agileshell/dockerfile-jdk-tomcat.git
+$ git clone https://github.com/zhwenh/dockerfile-jdk-tomcat.git
 $ cd dockerfile-jdk-tomcat
 $ sudo docker build -t dockerfile-jdk-tomcat .
 # OR
-$ sudo docker build -t dockerfile-jdk-tomcat https://github.com/agileshell/dockerfile-jdk-tomcat.git
+$ sudo docker build -t dockerfile-jdk-tomcat https://github.com/zhwenh/dockerfile-jdk-tomcat.git
 ```
 
 We can now fire a new container based on this image:
